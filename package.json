@@ -1,0 +1,26 @@
+{
+  "name": "@wkjay/ezui",
+  "version": "0.0.3",
+  "files":["dist/lib/*"],
+  "main": "dist/lib/ezui.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.1.0",
+    "prismjs": "^1.28.0",
+    "vue": "^3.0.4",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "marked": "^1.1.1",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.53.0",
+    "vite": "^1.0.0-rc.13"
+  }
+}
